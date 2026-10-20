@@ -6,14 +6,11 @@ The notebook, report and presentation all use the same numbers: **revenue means 
 ## Folder structure
 ```
 Week1_DataScience_Project/
-├── Week1_EDA.ipynb          the full analysis (Parts 1–8 of the brief), run from top to bottom
-├── Cleaned_Data/            cleaned tables, feature tables, Cleaning_Log.csv, kpi_table.csv
+├── Shammah_Ndubuisi_Week1 Submission.ipynb          the full analysis (Parts 1–8 of the brief), run from top to bottom
 ├── Visualizations/          all charts (01–10 are the ten required; 11–16 support the analysis)
 ├── EDA_Report.pdf           17-page report
-├── Presentation.pptx        15-slide summary deck
 ├── requirements.txt         Python packages
-├── README.md                this file
-└──  Raw_Data/                the supplied CSV files (unchanged)
+└── README.md                this file
 ```
 
 ## How to run
@@ -22,7 +19,6 @@ python -m venv .venv && source .venv/bin/activate        # Windows: .venv\Script
 pip install -r requirements.txt
 jupyter notebook Shammah_Ndubuisi_Week1 Submission.ipynb                          # Kernel → Restart & Run All
 ```
-Open the notebook from this folder: it reads `Raw_Data/` and writes `Cleaned_Data/` and `Visualizations/`.
 
 ## What the notebook covers
 | Part | Content |
